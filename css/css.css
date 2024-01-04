@@ -1,0 +1,136 @@
+          .a{
+                height:600px;
+                width:600px;
+                background-color: antiquewhite;
+            }
+            .b{
+                height:100px;
+                width:600px;
+                background-color:aquamarine  
+            }
+            .c{
+                height:100px;
+                width:100px;
+                background-color:antiquewhite;
+                float:left
+            }
+            .d{
+                height:100px;
+                width:400px;
+                background-color:rgb(225, 140, 28);
+                float:left
+            }
+            .e{
+                height:100px;
+                width:100px;
+                background-color:rgb(89, 55, 11);
+                float:right
+            }
+            .f{
+                height:50px;
+                width:100px;
+                background-color: blanchedalmond
+            }
+            .g{
+                height:50px;
+                width:100px;
+                background-color:brown
+            }
+            .h{
+                height:50px;
+                width:50px;
+                background-color:rgb(172, 103, 103);
+                float:left"
+            }
+            .i{
+                height:50px;
+                width:50px;
+                background-color:rgb(196, 71, 71);
+                float:right
+            }
+            .j{
+                height:500px;
+                width:600px;
+                background-color:azure"
+            }
+            .k{
+                height:300px;width:600;background-color: burlywood
+            }
+            .l{
+                height:300px;width:200px;background-color: cornsilk;float:left
+            }
+            .m{
+                height:300;width:400;background-color:cyan;float:right
+            }
+            .n{
+                height:100;width:400;background-color:deepskyblue  
+            }
+            .o{
+                height:200;width:400;background-color: darkcyan;
+            }
+            .p{
+                height:200;width:100;background-color: azure;float:left 
+            }
+            .q{
+                height:200;width:50;background-color: darkolivegreen;float:left 
+            }
+            .r{
+                height:200;width:50;background-color: rgb(132, 155, 92);float:right 
+            }
+            .s{
+                height:200;width:100;background-color: coral;float:left
+            }
+            .t{
+                height:200;width:200;background-color: darkkhaki;float:right
+            }
+            .u{
+                height:100;width:200;background-color: blueviolet;
+            }
+            .v{
+                height:100;width:100;background-color: rgb(157, 21, 100);float:left"
+            }
+            .w{
+                height:100;width:50;background-color:cadetblue;float:left"
+            }
+            .x{
+                height:100;width:50;background-color: cornsilk;float:right
+            }
+            .y{
+                height:200;width:600;background-color: chocolate;
+            }
+            .z{
+                height:200;width:200;background-color: burlywood;float:left
+            }
+            .a1{
+                height:200;width:100;background-color: rgb(34, 21, 4);float:left
+            }
+            .a2{
+                height:200;width:100;background-color: rgb(173, 137, 90);float:right
+            }
+            .a3{
+                height:200;width:100;background-color: darkkhaki;float:left
+            }
+            .a4{
+                height:200;width:100;background-color:coral;float:left
+            }
+            .a5{
+                height:200;width:100;background-color: dodgerblue;float:left
+            }
+            .a6{
+                height:200;width:50;background-color: honeydew;float:left
+            }
+            .a7{
+                height:200;width:50;background-color: rgb(76, 125, 76);float:right
+            }
+            .a8{
+                height:200;width:50;background-color:cadetblue;float:left
+            }
+            .a9{
+                height:200;width:50;background-color: deeppink;float:right
+            }
+            .a10{
+                height:200;width:25;background-color: rgb(81, 46, 78);float:left
+            }
+            .a11{
+                style="height:200;width:25;background-color: rgb(68, 72, 95);float:right
+            }
