@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>z-index</title>
+       <style>
+        .a{
+            height:300px;
+            width:300px;
+            background-color:red;
+            float:left;
+            margin-top:100px;
+            margin-left:200px;
+            position:relative;
+            top:100px;
+            left:200px;
+            z-index:1;
+        }
+        .b{
+            height:300px;
+            width:300px;
+            background-color:rgb(41, 87, 27);
+            float:left;
+            margin-top:100px;
+            margin-left:20px;
+            position:absolute;
+            z-index:3;
+        }
+        .c{
+            height:300px;
+            width:300px;
+            background-color:rgb(184, 170, 37);
+            float:left;
+            margin-top:100px;
+            margin-left:20px;
+            position:absolute;
+            bottom:200px;
+            left:200px;
+            z-index:2;
+        }
+        /*smallest value will go to the last*/
+       </style>
+    </head>
+    <body>
+        <center><h1>Z-INDEX</h1></center><hr>
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </body>
+</html>
