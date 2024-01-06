@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: content-box;
+}
+.a{
+    height:880px;
+    background-color: rgb(143, 216, 225);
+}
+.b{
+    height:60px;
+    background-color: blue;
+    color:white;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.c{
+    height:800px;
+}
+.d{
+    height:800px;
+    width:400px;
+    padding:50px;
+    float:left;
+}
+#l1{
+    font-size:30px;
+}
+input{
+    height:40px;
+    width:400px;
+}
+#b1{
+    height:40px;
+    width:400px;
+    background-color: blue;
+    border-color:blue;
+    color:white;
+}
+#b2{
+    height:40px;
+    width:400px;
+    background-color: rgb(73, 72, 72);
+    border-color: rgb(73, 72, 72);
+    color:white;
+}
+hr{
+    width: 180px;
+    float: left;
+}
+.d1{
+    margin-top: 12px;
+    color: gray;
+    text-align:center;
+    color:white;
+            }
+.e{
+    height:800px;
+    width:900px;
+    float:right;
+}
+.f{
+    height:300px;
+    width:880px;
+    margin:50px 50px 10px 0px;
+    background-color: blue;
+    position:relative;
+    right:40px;
+}
+.g{
+    height:350px;
+    width:880px;
+    margin:0px 50px 50px 0px;
+    position:relative;
+    right:40px;
+    bottom:20px;
+}
+.f1{
+    height:300px;
+    width:500px;
+    float:left;
+}
+.f2{
+    height:300px;
+    width:300px;
+    float:right;
+}
+#h{
+    margin:30px 30px 20px 30px;
+    color:white;
+    font-size:30px;
+}
+#p1{
+    margin:30px 30px 20px 30px;
+    color:white;
+    font-size:25px;
+}
+#i1{
+    height:150px;
+    width:150px;
+    margin-left:50px;
+    margin-top:50px;
+}
+#p2{
+    margin-left:80px;
+    margin-top:10px;
+    color:white;
+    font-size:20px;
+}
+#p3{
+    font-size:40px;
+}
+.g1{
+    height:280px;
+    width:200px;
+    margin:30px 10px 10px 10px;
+    background-color: rgb(73, 72, 72);
+    float:left;
+    border-radius:15px;
+}
+.g2{
+    height:280px;
+    width:200px;
+    margin:30px 10px 10px 10px;
+    background-color: rgb(73, 72, 72);
+    float:left;
+    border-radius:15px;
+}
+.g3{
+    height:280px;
+    width:200px;
+    margin:30px 10px 10px 10px;
+    background-color: rgb(73, 72, 72);
+    float:left;
+    border-radius:15px;
+}
+.g4{
+    height:280px;
+    width:200px;
+    margin:30px 10px 10px 10px;
+    background-color: rgb(73, 72, 72);
+    float:right;
+    border-radius:15px;
+}
+#hh{
+    margin:10px 10px 10px 20px;
+    color:white;
+    font-size:20px;
+}
+#i2{
+    height:50px;
+    width:50px;
+    margin:10px 10px 10px 50px;
+}
+#p4{
+    margin:20px 10px 10px 30px;
+    color:white;
+    font-size:20px;
+}
