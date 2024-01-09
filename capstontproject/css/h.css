@@ -12,8 +12,7 @@
     background-color: blue;
     color:white;
     text-align:center;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top:20px;
 }
 .c{
     height:800px;
@@ -118,6 +117,7 @@ hr{
     background-color: rgb(73, 72, 72);
     float:left;
     border-radius:15px;
+    opacity:0.9;
 }
 .g2{
     height:280px;
@@ -126,6 +126,7 @@ hr{
     background-color: rgb(73, 72, 72);
     float:left;
     border-radius:15px;
+    opacity:0.9;
 }
 .g3{
     height:280px;
@@ -134,6 +135,7 @@ hr{
     background-color: rgb(73, 72, 72);
     float:left;
     border-radius:15px;
+    opacity:0.9;
 }
 .g4{
     height:280px;
@@ -142,6 +144,7 @@ hr{
     background-color: rgb(73, 72, 72);
     float:right;
     border-radius:15px;
+    opacity:0.9;
 }
 #hh{
     margin:10px 10px 10px 20px;

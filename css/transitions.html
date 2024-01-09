@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>transitions</title>
+        <style>
+            #a{
+                height:400px;
+                width:300px;
+                margin:30px;
+                float:left;
+                background-color: darkslateblue;
+                border:1px solid black;
+                transition:width 3s;/*for individual*/
+            }
+            #a:hover{
+                width:500px;
+                background-color: aliceblue;
+            }
+            #b{
+                height:400px;
+                width:300px;
+                margin:30px;
+                float:left;
+                background-color: rgb(31, 157, 62);
+                border:1px solid black;
+                transition:all 3s;/*for all*/
+            }
+            #b:hover{
+                width:400px;
+                background-color:orangered;
+                margin-top:50px;
+                transform:rotate(180deg);
+                border-radius:400%;
+            }
+            #c{
+                height:400px;
+                width:300px;
+                margin:30px;
+                float:left;
+                background-color: rgb(197, 37, 163);
+                border:1px solid black;
+                transition-property:background-color;
+                transition-delay:3s;
+                transition-duration:5s;
+                transition-timing-function:ease-in;
+            }
+            #c:hover{
+                /* width:400px; */
+                background-color:orangered;
+                /* margin-top:50px;
+                transform:rotate(180deg);
+                border-radius:400%; */
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Transitions in css</h1></center><hr>
+        <div id="a"></div>
+        <div id="b"></div>
+        <div id="c"></div>
+    </body>
+</html>
