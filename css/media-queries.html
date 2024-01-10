@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Media-query</title>
+        <style>
+            #width-display{
+                height:50px;
+                width:100px;
+                font-weight:bold ;
+                border:2px solid black;
+                text-align:center;
+                margin-top:300px;
+                margin-left:300px;
+                padding-top:10px;
+            }
+            @media screen and (min-width:600px) and (max-width:750px){
+                body{
+                    background-color: red;
+                }
+                #width-display{
+                    color:yellow;
+                }
+            }
+        </style>
+    </head>
+    <body bgcolor="pink">
+        <div id="width-display">Media query</div>
+    </body>
+</html>
