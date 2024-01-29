@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title> 
+     <link rel="stylesheet" href="boot/css/bootstrap.min.css">
+    <script src="boot/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container-fluid{
+            background-color: blueviolet;
+             height: 600px;
+        }
+        .container{
+            background-color:rgb(168, 101, 230);
+            height: 590px; 
+            position: relative;
+            top: 60px;
+            border-radius: 50px;
+        }
+        ul{
+            position: relative;
+            top: 50px;
+        }
+        li{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body style="background-color: blueviolet; ;">
+    <div class="container-fluid">
+        <div class="container">
+            <i class="fa-solid fa-circle-check" style="font-size: 50px; color: white; position: relative; left: 550px; top: 30px;"></i>
+            <h2 style="color: white;"><center><br>&nbsp;&nbsp;Task List</center></h2>
+            <div class="row">
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:28px;font-size:16px;"><b>Team Member</b></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;"><img src="../Bootstrap/girl2.png" style="height:40px;"> Alice Mayer</li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;"><img src="../Bootstrap/girl3.png" style="height:40px;">Kate Mose</li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230);color: white;"><img src="../Bootstrap/girl1.png" style="height:40px;"> Danny Mcchain</li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230);color: white;"><img src="../Bootstrap/girl2.png" style="height:40px;">Alexa chung</li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;"> <img src="../Bootstrap/girl3.png" style="height:40px;">Ben Smith</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:28px;font-size:16px;"><b>Task</b></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:28px;">Call Sam For Payments</li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:28px;">Make payment to Bluedart</li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230);color: white;padding-top:28px;">Offline rent</li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230);color: white;padding-top:28px;">Offline grocery shopping</li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:20px;">Ask for Lunch to Clients</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;font-size:16px;padding-top:28px;"><b>Priority</b></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:20px;"><button style="background-color: red;color: white ; border: solid red;height:30px;">High priority</button></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:20px;"><button style="background-color:green;color: white ; border: solid green;">Low priority</button></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230);color: white;padding-top:20px;"><button style="background-color: orange;color: white ; border: solid orange;"> Middle priority</button></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230);color: white;padding-top:20px;"><button style="background-color: red;color: white ; border: solid red;">High priority</button></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:20px;"><button style="background-color: green;color: white ; border: solid green;">High priority</button></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;font-size:16px;padding-top:28px;"><b>Actions</b></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:20px;"><i class="fa-solid fa-check" style="color: #087f06; font-size: 30px;" ></i>&nbsp;&nbsp;<i class="fa-solid fa-trash" style="color: #ffcd07; font-size: 20px;"></i></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:20px;"><i class="fa-solid fa-check" style="color: #087f06; font-size: 30px;" ></i>&nbsp;&nbsp;<i class="fa-solid fa-trash" style="color: #ffcd07; font-size: 20px;"></i></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230);color: white;padding-top:20px;"><i class="fa-solid fa-check" style="color: #087f06; font-size: 30px;" ></i>&nbsp;&nbsp;<i class="fa-solid fa-trash" style="color: #ffcd07; font-size: 20px;"></i></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230);color: white;padding-top:20px;"><i class="fa-solid fa-check" style="color: #087f06; font-size: 30px;" ></i>&nbsp;&nbsp;<i class="fa-solid fa-trash" style="color: #ffcd07; font-size: 20px;"></i></li>
+                        <li class="list-group-item" style="background-color:rgb(168, 101, 230); color: white;padding-top:20px;"><i class="fa-solid fa-check" style="color: #087f06; font-size: 30px;" ></i>&nbsp;&nbsp;<i class="fa-solid fa-trash" style="color: #ffcd07; font-size: 20px;"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
