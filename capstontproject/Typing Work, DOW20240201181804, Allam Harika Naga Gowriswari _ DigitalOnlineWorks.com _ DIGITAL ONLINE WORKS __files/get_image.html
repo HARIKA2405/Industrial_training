@@ -1,0 +1,67 @@
+
+<!-- saved from url=(0064)https://www.digitalonlineworks.com/typing_software/get_image.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./html2canvas.js.download"></script>
+<script language="JavaScript">
+function ieClicked() {
+    if (document.all) {
+        return false;
+    }
+}
+function firefoxClicked(e) {
+    if(document.layers||(document.getElementById&&!document.all)) {
+        if (e.which==2||e.which==3) {
+            return false;
+        }
+    }
+}
+if (document.layers){
+    document.captureEvents(Event.MOUSEDOWN);
+    document.onmousedown=firefoxClicked;
+}else{
+    document.onmouseup=firefoxClicked;
+    document.oncontextmenu=ieClicked;
+}
+document.oncontextmenu=new Function("return false")
+function disableselect(e){
+    return false
+    }
+    function reEnable(){
+    return true
+    }
+    document.onselectstart=new Function ("return false")
+    if (window.sidebar){
+    document.onmousedown=disableselect
+    document.onclick=reEnable
+    }
+</script>
+    <style>
+    canvas{border:1px solid #222}
+    </style>
+    
+    <link rel="stylesheet" href="./bootstrap-magnify.css">
+    <style type="text/css">
+        .image_div {
+            width:500px;
+            /*margin: -193px 0 0 -100px;*/
+            /*position:absolute;*/
+/*            top: 40%;
+            left: 10%;*/
+padding: 0px;
+        }
+        .image_div img {
+            max-width: 100%;
+        }
+    </style>
+    
+
+<script src="./jquery.min.js.download"></script>
+<script src="./bootstrap-magnify.min.js.download"></script>
+                    </head><body><div class="scan_image">
+                        <div class="image_div">
+                            
+                        
+               
+                            <div class="image_div pull-right">
+                                <div class="magnify"><img data-toggle="magnify" src="./71655273.jpg" alt=""><div class="magnify-large" style="background: url(&quot;../typing_software/images/71655273.jpg&quot;) no-repeat;"></div></div>
+
+    </div></div></div></body></html>
