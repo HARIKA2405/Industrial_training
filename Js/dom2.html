@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <p>This is para 1</p>
+    <p>This is para 2</p>
+    <p>This is para 3</p>
+    <h2 id="head">By using id</h2>
+    <h2 id="head">By using id</h2>
+    <h3 class="new">By using class</h3>
+    <h3 class="new">By using class</h3>
+    <span>By using tagname</span> <br>
+    <span>By using tagname</span><br>
+    <a id="my_anchor">Click Here</a><br><br>
+    <span id="dis"></span>
+    <script>
+        //query selector("#id,.class tag")
+        const qs=document.querySelector("p")//if we want to apply to other one then use id name with #.
+        //console.log(qs)
+        qs.style.backgroundColor="red";//it is applicable to the first one only
+
+
+        //query selector all
+//by using individually
+        // by using id
+        let heads=document.querySelectorAll ("#head");//all are applicable
+        heads[0].style.backgroundColor="red";
+        heads[1].style.backgroundColor="red";
+        //by using classname
+        let local=document.querySelectorAll(".new")
+        local[0].style.fontSize="60px";
+        local[1].style.fontSize="60px";
+        //by using tagname
+        let element=document.querySelectorAll("span")
+        element[0].style.fontSize="100px";
+        element[1].style.fontSize="100px";
+         // //by using id,class,tagname
+        // let heads=document.querySelectorAll ("#head,.new,span");//all are applicable
+        // console.log(heads)
+        // for(i=0;i<6;i++)
+        // heads[i].style.backgroundColor="red";
+
+
+        //setAttribute
+        const MyAnch=document.getElementById('my_anchor')
+        MyAnch.setAttribute("href","https://youtube.com")
+        MyAnch.setAttribute("target","_blank")
+
+
+
+        //create element
+        const NewBtn=document.createElement("button");
+        NewBtn.setAttribute('id','btn_id');
+        const NewDiv=document.createElement("div")
+        NewBtn.innerText="click me"
+        NewBtn.innerText="click me"
+        NewDiv.innerHTML="<h1> This is a new division</h1>"
+        NewDiv.style.cssText=  `height:200px;
+                                width:200px;
+                                color:red;
+                                padding:5px;
+                                background-color:lightblue;
+                                border-radius:50px;
+                                border:2px solid blue`;
+        //append element
+        const bdy=document.body
+        //console.log(bdy)
+        bdy.appendChild(NewBtn)
+        bdy.appendChild(NewDiv)
+
+        //eventListener
+        const MyBtn=document.getElementById('btn_id');
+        MyBtn.addEventListener("mouseover",MyFunc1)
+        MyBtn.addEventListener("mouseout",MyFunc2)
+        MyBtn.addEventListener("click",MyFunc3)
+        function MyFunc1(){
+            NewDiv.style.backgroundColor="pink"
+        }
+        function MyFunc2(){
+            bdy.style.backgroundColor="skyblue"
+        }
+        function MyFunc3(){
+            const d=document.getElementById('dis');
+            d.innerHTML="Today date is:"+Date()
+            
+        }
+    </script>
+</body>
+</html>

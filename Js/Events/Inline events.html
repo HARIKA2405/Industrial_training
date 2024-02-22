@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline events</title>
+</head>
+<body>
+    <button onclick="sample()">Click here</button>
+    <button onmouseover="alert('hloooo')">Click here</button>
+    <br>
+    <b id="sp_id"></b>
+    <!-- first way(inline) -->
+    <script type="text/javascript">
+        function sample(){
+            document.body.style.backgroundColor='pink';
+            document.getElementById('sp_id').innerText='This is a onclick event by using inline javascript events'
+        }
+    </script>
+</body>
+</html>
