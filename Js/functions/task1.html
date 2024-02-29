@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Enter Name</label>
+    <input type="text" id="i1">
+    <br><br>
+    <label>Enter phone number</label>
+    <input type="number" id="i2">
+    <br><br>
+    <label>Enter branch</label>
+    <input type="text" id="i3">
+    <label>Enter password:</label>
+    <input type="password" id="i4">
+    <label>Enter mail:</label>
+    <input type="mail" id="i5"> 
+    <br><br>
+    <button type="submit" onclick="getdetails()">Submit</button>
+    <script>
+        function getdetails(){
+            var x=document.getElementById("i1").value;
+            var y=document.getElementById("i2").value;
+            var z=document.getElementById("i3").value;
+            var m=document.getElementById("i4").value;
+            var n=document.getElementById("i5").value;
+            if(x.length<1){
+            alert("Please enter your details")
+        }
+        else if(y.length<1) {
+            alert("Please enter your details")
+        }
+        else if(z.length<1){
+            alert("Please enter your details")
+        }
+        else if(m.length<1){
+            alert("Please enter your details")
+        }
+        else if(n.length<1){
+            alert("Please enter your details")
+        }
+        else{
+            alert("Thank you")
+        }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //arrow function
+        const add= (a,b) =>{
+            console.log(a+b)
+        }
+        add(10,20)
+        
+        const name= (a,b) =>{
+            console.log(a+b)
+        }
+        name('Hari','ka')
+        
+        const n=(a,b) =>{
+            c=a+b
+            console.log(c)
+            console.log(typeof(c))
+        }
+        n(10,"true")
+        //2,true -3(number)
+        //true,true -2(number)
+        //false,true -1(number)
+        //"true",true -truetrue(string)
+        //true,"false" -truefalse(string)
+
+        //--------------
+        //time function
+        setTimeout(() =>{
+            document.write('after 2 seconds')
+        },2000)
+        //call by function
+         setTimeout(test,3000)
+         function test(){
+            document.write('after 3 seconds')
+         }
+
+        //------anonymous functions
+         var greet = function (platform) { 
+        console.log("Welcome to ", platform); 
+    }; 
+    </script>
+</body>
+</html>

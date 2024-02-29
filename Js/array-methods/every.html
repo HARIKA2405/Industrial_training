@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Every method</title>
+</head>
+<body>
+    <center><h1>Every function in Array methods</h1></center>
+    <p>used to check every element in the array based on the condition <br>If all the elements in the array satisfies the given condition then returns true otherwise false.</p>
+    <script type="text/javascript">
+        let student_marks=[55,78,10,34,54];
+        //student_marks.every(function(ele,i,index))
+        let final_result=student_marks.every((score,i)=>{
+            console.log(score);
+            return score>35;
+        })
+        console.log(final_result)
+
+        //anonymous function
+        var a=[45,67,89,43];
+        var b=a.every(function(score,i){
+            console.log(score);
+            return score>10;
+        })
+        console.log(b);
+
+        //named function
+        var a=[45,56,5,89,43];
+        var b=a.every(function marks(score,i){
+            console.log(score);
+            return score>10;
+        })
+        console.log(b);
+    </script>
+</body>
+</html>

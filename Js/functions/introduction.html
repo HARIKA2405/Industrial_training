@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+    <button onclick="funcname()">click here</button>
+    <br>
+    <input type="text" id="p-id">
+    <span></span>
+    <button onclick="getname()">click</button>
+    <script type="text/javascript">
+        //function with no parameters
+        //funcname()
+        function funcname(){
+            //code
+           document.write('function with no parameters')
+        }
+        //function with one parameter
+        //getname(hiii)
+        function getname(name){
+            let n=document.getElementById('p-id').value
+             alert(n)
+        let nm=document.getElementByTagName('span').value;
+        document.write(nm)
+        }
+        //function with two arguments
+        add(10,10)
+        function add(a,b){
+            console.log(a+b)
+            document.write(a+b)
+        }
+        //function with default arguments
+        
+        sub(30)
+        function sub(a=5,b=4){
+            document.write(a-b)
+        }
+      
+        
+    </script>
+</body>
+</html>

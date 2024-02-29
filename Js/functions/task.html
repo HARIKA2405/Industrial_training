@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+<body>
+   <form>
+    <input type="text" id="p-id">
+    <button onclick="getname()">click</button>
+   </form>
+    
+    <script>
+        //function with one parameter
+        //getname(hiii)
+        function getname(name){
+            let n=document.getElementById('p-id').value
+            if(n.length==0){
+            alert('no')
+            }
+             else{
+             document.write(n)
+             }
+
+        }
+        
+          
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>some method</title>
+</head>
+<body>
+    <center><h1>some function in Array methods</h1></center>  
+    <p>If the condition is rue it returns true otherwise returns false</p>  
+    <script type="text/javascript">
+        //arrrow function
+        let trainees=['hari@gmail.com','prassu@gmail.com','likhitha@gmail.com']
+        let email_check=trainees.some((email,i,arr)=>{
+            return email=='hari@gmail.com';
+        })
+        console.log(email_check);
+
+        //anonymous function
+        let email_chk=trainees.some(function(email,i,arr){
+            return email=='prassu7@gmail.com';
+        })
+        console.log(email_chk);
+
+        //named function
+        let email_chck=trainees.some(function mail(email,i,arr){
+            return email=='likhitha@gmail.com';
+        })
+        console.log(email_chck)
+    </script>
+</body>
+</html>

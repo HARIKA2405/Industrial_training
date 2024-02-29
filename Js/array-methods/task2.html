@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array methods</title>
+</head>
+<body>
+    <center><h1>  Array of objects</h1></center>
+    <script type="text/javascript">
+        let obj=[
+         {
+            name:'Harika',
+            rollno:'002',
+            college:'aec'
+         },
+         {
+            name:'Prassanna',
+            rollno:'016',
+            college:'aec'
+         },
+         {
+            name:'likhitha',
+            rollno:'041',
+            college:'acet'
+         },
+         {
+            name:'likhi',
+            rollno:'061',
+            college:'acet'
+         },
+         {
+            name:'Harika',
+            rollno:'020',
+            college:'acoe'
+         },
+         {
+            name:'jaya',
+            rollno:'026',
+            college:'acoe'
+         },
+         {
+            name:'devi',
+            rollno:'030',
+            college:'acoe'
+         },
+        ];
+        //console.log(obj);
+        let clg=obj.filter(function(a,b,c){
+            return a['college']=='acoe'
+        });
+      console.log(clg)
+      for(i=0;i<=clg.length;i++)
+        {
+            document.write("Rollno:"+clg[i].name +"<br>")
+            document.write("cllg:"+clg[i].rollno +"<br>")
+            document.write("code:"+clg[i].college +"<br><br>")
+        }
+    </script>
+</body>
+</html>

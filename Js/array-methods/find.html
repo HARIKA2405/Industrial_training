@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find method</title>
+</head>
+<body>
+    <center><h1>find function in Array methods</h1></center>
+    <p>It is used to return the value if the condition is true.<br>once if condition is true it will exits from the loop</p>
+    <script type="text/javascript">
+        
+        //arrow function
+        let courses=['html','css','bootstrap','js'];
+        let getcourse=courses.find((course,index)=>{
+            return course.startsWith('b');
+        })
+        console.log(getcourse);
+
+        //anonymous function
+        let getcrs=courses.find(function(course,index){
+            return course.endsWith('s');
+        })
+        console.log(getcrs)
+
+        //named function
+        let getcs=courses.find( function gtcrs(course,index){
+            return course.startsWith('j')
+        })
+        console.log(getcs)
+    </script>
+</body>
+</html>

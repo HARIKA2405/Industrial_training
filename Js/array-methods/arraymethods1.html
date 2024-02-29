@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Array methods</h1></center>
+    <ol>
+        <li>push</li>
+        <li>pop</li>
+        <li>shift</li>
+        <li>unshift</li>
+        <li>concat</li>
+        <li>slice</li>
+        <li>splice</li>
+        <li>indexof</li>
+        <li>sort</li>
+    </ol>
+   <script type="text/javascript">
+    let branch=['cme','ccn','ece'];
+    console.log(branch);
+    //Adds an element at the ending position
+    branch.push('eee');
+    console.log(branch);
+    //Removes an element at the ending position
+    branch.pop('');
+    console.log(branch);
+    //removes an element at the starting position
+    branch.shift()
+    console.log(branch);
+    //adds an element at the starting position
+    branch.unshift('mech')
+    console.log(branch);
+
+    let fruits=['apple','banana','mango'];
+    let vegetables=['carrot','tomato','potato']
+    let c=fruits.concat(vegetables)//combines two arrays
+    console.log(c)
+
+    //slice splits array into 2 or more
+    let newarr= c.slice(2,5)
+    console.log(newarr)
+
+    //splice add,remove and splits the elements from the array
+    c.splice(2,2,'grapes','orange');
+    console.log(c);
+
+    //indexof is used to return the index of particular element
+    let newar=c.indexOf('banana');
+    console.log(newar);
+
+    //sort is used to arrange elements in the array in particular order
+    let newara=c.sort();
+    console.log(newara);
+   </script> 
+</body>
+</html>
