@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
+		integrity= 
+"sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"></script> 
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.min.js"
+		integrity= 
+"sha512-iphNRh6dPbeuPGIrQbCdbBF/qcqadKWLa35YPVfMZMHBSI6PLJh1om2xCTWhpVpmUyb4IvVS9iYnnYMkleVXLA=="
+		crossorigin="anonymous"
+		referrerpolicy="no-referrer"></script>
+    <style>
+        .a{
+            height: 100px;
+            width: 390px;
+            border: 2px solid black;
+            float: left;
+            margin: 2px;
+            font-size: 25px;
+        }
+        .b{
+            height: 485px;
+            width: 505px;
+            border: 1px solid black;
+            margin-top:50px;
+        }
+        .button1{
+            height: 92px;
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color:  rgb(251, 140, 157);
+            color: white;
+            margin-top: 2px;
+            float: right;
+            margin: 1px;
+            font-size: 25px;
+            
+        }
+        .button2{
+            height: 90px;
+            width: 130px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: rgb(251, 140, 157);
+            color: white;
+            margin-top: 2px;
+            float: left;
+            margin: 2px;
+            font-size: 25px;
+        }
+        .button3{
+            height: 102px;
+            width: 100px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: rgb(251, 140, 157);
+            color: white;
+            margin-top: 2px;
+            margin-left: 15px;
+            margin: 1px;
+            font-size: 25px;
+            
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>CALCULATOR</h1>
+    <hr>
+    <div class="b">
+        <input type="text" id="result" class="a">
+        <input type="button"  value="C" class="button3"  onclick="clr()">
+        <input type="button" value="1" class="button2"  onclick="my('1')">
+        <input type="button" value="2" class="button2" onclick="my('2')">
+        <input type="button" value="3" class="button2" onclick="my('3')">
+        <input type="button" value="/" class="button1" onclick="my('/')">
+        <input type="button" value="4" class="button2" onclick="my('4')">
+        <input type="button" value="5" class="button2" onclick="my('5')">
+        <input type="button" value="6" class="button2" onclick="my('6')">
+        <input type="button" value="*" class="button1" onclick="my('*')">
+        <input type="button" value="7" class="button2" onclick="my('7')">
+        <input type="button" value="8" class="button2" onclick="my('8')">
+        <input type="button" value="9" class="button2" onclick="my('9')">
+        <input type="button" value="-" class="button1" onclick="my('-')">
+        <input type="button" value="0" class="button2" onclick="my('0')">
+        <input type="button" value="." class="button2" onclick="my('.')">
+        <input type="button" value="=" class="button2" onclick="solve()">
+        <input type="button" value="+" class="button1" onclick="my('+')">
+
+    </div>
+    <script>
+        function my(val){
+            document.getElementById("result").value+=val;
+        }
+        
+        function clr() { 
+            document.getElementById("result").value = "" 
+        }
+        
+        function solve() { 
+			let x = document.getElementById("result").value 
+			let y = math.evaluate(x) 
+			document.getElementById("result").value = y 
+		} 
+    </script>
+    </center>
+</body>
+</html>

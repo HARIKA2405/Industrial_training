@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        div{
+            height:400px;
+            width:400px;
+            border:5px solid black
+        }
+        h1{
+            color:red;font-size:40px;padding-left: 30px; 
+        }
+        h5{
+            color:rgb(33, 190, 43);font-size:20px;padding-left: 30px; 
+        }
+        input{
+            height:40px;width:130px;margin-left:50px;
+        }
+        button{
+            background-color: green;height:40px;width:130px;
+        }
+    </style>
+</head>
+<body>
+    <div >
+        <h1  >Guess the Number <center>Game</center></h1>
+        <h5 >Guess a number between 1 and 10</h5>
+        <input type="number" id="i1" onclick="get(this.value)">
+        <button  onclick="func()">submit guess</button>
+        <center><p id="p_id"></p></center>
+    </div>
+    <script>
+        function func(){
+            var x=document.getElementById("i1").value;
+            let a=Math.floor(Math.random()*10)
+
+            if(x==a)
+            {
+                document.getElementById("p_id").innerHTML='congratulations!'
+            }
+            else{
+                document.getElementById("p_id").innerHTML='sorry!Try again'
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
